@@ -18,7 +18,7 @@ public class Audio : MonoBehaviour {
 	void Update () {
         
 	}
-
+    //Os métodos abaixo servem para reproduzir sons nos eventos das animações de andar e de correr
     private void WalkStepRight()
     {
         audioSource.PlayOneShot(clips[0]);
@@ -44,6 +44,7 @@ public class Audio : MonoBehaviour {
         audioSource.PlayOneShot(clips[4]);
     }
 
+    //Quando um inimigo sofre dano ele emite randomicamente algum desses sons
     public AudioClip RandomizeEnemyDamageSound()
     {
         int clipIndex;

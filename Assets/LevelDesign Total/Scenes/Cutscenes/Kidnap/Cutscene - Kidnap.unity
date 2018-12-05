@@ -489,6 +489,16 @@ Prefab:
       propertyPath: sceneName
       value: Level Design - Realidade Virtual
       objectReference: {fileID: 0}
+    - target: {fileID: 328014720434238066, guid: 26de770124734e54684bf42e691a75f6,
+        type: 2}
+      propertyPath: m_EnabledAudioTracks.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 328014720434238066, guid: 26de770124734e54684bf42e691a75f6,
+        type: 2}
+      propertyPath: m_AspectRatio
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 26de770124734e54684bf42e691a75f6, type: 2}
   m_IsPrefabParent: 0

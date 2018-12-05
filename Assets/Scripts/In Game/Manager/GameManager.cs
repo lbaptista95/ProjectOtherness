@@ -108,13 +108,14 @@ public class GameManager : MonoBehaviour
             StartGame();
         }
 
-        controleMouse = juneInstance.GetComponent<ControleMouse>();
+        controleMouse = juneInstance.GetComponentInChildren<ControleMouse>();
 
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
+        //Caso june já seja uma girafa, a mesma não pode matar mais de 5 inimigos por cena num período de 30 segundos
         if (GameObject.Find("June(Clone)") != null)
             if (GameObject.Find("June(Clone)").GetComponent<ControleTeclado>().isGiraffe)
             {
@@ -124,9 +125,10 @@ public class GameManager : MonoBehaviour
                     GameObject.Find("ViolenceIMG").GetComponent<Image>().enabled = true;
                     if (GameObject.Find("Audio Source") != null)
                         GameObject.Find("Audio Source").GetComponent<AudioSource>().enabled = false;
-                    juneInstance.GetComponent<AlternarControles>().enabled = false;
-                    juneInstance.GetComponent<ControleTeclado>().enabled = false;
-                    juneInstance.GetComponent<ControleMouse>().enabled = false;
+                    juneInstance.GetComponentInChildren<AlternarControles>().enabled = false;
+                    juneInstance.GetComponentInChildren<ControleTeclado>().enabled = false;
+                    juneInstance.GetComponentInChildren<ControleMouse>().enabled = false;
+                    juneInstance.GetComponentInChildren<Animator>().SetLayerWeight(0, 0);
                     hintText = "Violence  comes  from  the  belief  that  other  people  make  us  suffer  and  therefore  deserve  to  be  punished";
                     GameOver();
 
@@ -141,6 +143,7 @@ public class GameManager : MonoBehaviour
                     deathTimer = 0;
                 }
             }
+        //Delay entre morte e aparição do menu de game over
         if (isDead && deadTimer <= 3)
         {
             deadTimer += Time.deltaTime;
@@ -174,18 +177,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Desativa os controles após morrer e ativa o modo ragdoll
     void Death()
     {
         isDead = true;
         juneInstance.GetComponentInChildren<MeleeAttack>().enabled = false;
-        juneInstance.GetComponent<NavMeshAgent>().enabled = false;
-        juneInstance.GetComponent<AlternarControles>().controleComum.enabled = false;
-        juneInstance.GetComponent<AlternarControles>().enabled = false;
-        juneInstance.GetComponent<ControleMouse>().enabled = false;
-        juneInstance.GetComponent<ControleTeclado>().enabled = false;
-        juneInstance.GetComponent<Animator>().enabled = false;
+        juneInstance.GetComponentInChildren<NavMeshAgent>().enabled = false;
+        juneInstance.GetComponentInChildren<AlternarControles>().controleComum.enabled = false;
+        juneInstance.GetComponentInChildren<AlternarControles>().enabled = false;
+        juneInstance.GetComponentInChildren<ControleMouse>().enabled = false;
+        juneInstance.GetComponentInChildren<ControleTeclado>().enabled = false;
+        juneInstance.GetComponentInChildren<Animator>().enabled = false;
     }
 
+    //Converte uma string em Vector3, para que o Manager consiga carregar os percursos salvos dos inimigos
     public static Vector3 StringToVector3(string sVector)
     {
         // Remove the parentheses
@@ -223,12 +228,12 @@ public class GameManager : MonoBehaviour
         //SceneManager.LoadScene(PlayerPrefs.GetString("Cena"));
         Instantiate(globalOrientation);
         juneInstance = Instantiate(junePrefab, PlayerPrefsX.GetVector3("Personagem"), Quaternion.identity);
-        juneInstance.GetComponent<ControleTeclado>().isGiraffe = PlayerPrefsX.GetBool("Girafa");
+        juneInstance.GetComponentInChildren<ControleTeclado>().isGiraffe = PlayerPrefsX.GetBool("Girafa");
         eRotation = PlayerPrefsX.GetQuaternionArray("RotacaoInimigos");
         currentHealth = PlayerPrefs.GetInt("PlayerHealth");
         enemiesTypesNames = PlayerPrefsX.GetStringArray("TiposDeInimigo");
         GameObject.Find("Quest").GetComponent<Text>().text = PlayerPrefs.GetString("Mission");
-        juneInstance.GetComponent<AlternarControles>().mission = PlayerPrefsX.GetBool("MissionBool");
+        juneInstance.GetComponentInChildren<AlternarControles>().mission = PlayerPrefsX.GetBool("MissionBool");
         GameObject.Find("QuestIMG").GetComponent<Image>().sprite = Resources.Load<Sprite>(PlayerPrefs.GetString("QuestIMG"));
         GameObject.Find("QuestIMG").GetComponent<Image>().color = PlayerPrefsX.GetColor("QuestColor");
         GameObject.FindGameObjectWithTag("NextLevel").GetComponent<BoxCollider>().enabled = PlayerPrefsX.GetBool("NextLevel");
@@ -286,7 +291,7 @@ public class GameManager : MonoBehaviour
                     enemyInstance.GetComponent<KeyEnemyHealth>().enemyCurrentHealth = PlayerPrefs.GetFloat("EnemyLife");
                     if (enemyInstance.GetComponent<KeyEnemyHealth>().enemyCurrentHealth <= 0)
                     {
-                        enemyInstance.GetComponent<Dialogue>().enabled = false;
+                        enemyInstance.GetComponentInChildren<Dialogue>().enabled = false;
                     }
                 }
             }
@@ -326,9 +331,9 @@ public class GameManager : MonoBehaviour
         juneInstance = Instantiate(junePrefab, juneSpawn.transform.position, Quaternion.identity);
         if (saveManager != null)
         {
-            juneInstance.GetComponent<ControleTeclado>().isGiraffe = saveManager.GetComponent<SaveManager>().isJuneGiraffe;
+            juneInstance.GetComponentInChildren<ControleTeclado>().isGiraffe = saveManager.GetComponent<SaveManager>().isJuneGiraffe;
             GameObject.Find("Quest").GetComponent<Text>().text = saveManager.GetComponent<SaveManager>().mission;
-            juneInstance.GetComponentInParent<AlternarControles>().mission = saveManager.GetComponent<SaveManager>().missionBool;
+            juneInstance.GetComponentInChildren<AlternarControles>().mission = saveManager.GetComponent<SaveManager>().missionBool;
             GameObject.Find("QuestIMG").GetComponent<Image>().color = saveManager.GetComponent<SaveManager>().questColor;
             GameObject.Find("QuestIMG").GetComponent<Image>().sprite = Resources.Load<Sprite>(saveManager.GetComponent<SaveManager>().questSprite);
         }
@@ -374,6 +379,8 @@ public class GameManager : MonoBehaviour
         Hint();
     }
 
+
+    //Caso haja alguma dica disponível após a morte do jogador
     public void Hint()
     {
         if (hintText != null)

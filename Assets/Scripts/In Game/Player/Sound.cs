@@ -28,6 +28,7 @@ public class Sound : MonoBehaviour
         {
             bateu = false;
         }
+        //Caso inimigo ouça june
         else if (bateu)
         {
             for (int x = 0; x < enemies.Count; x++)
@@ -50,6 +51,7 @@ public class Sound : MonoBehaviour
             }
 
         }
+        //Aumenta o collider que representa o som de june de acordo com seus movimentos
         if (player.GetComponent<ControleTeclado>().noise >= 4.0f && player.GetComponent<ControleTeclado>().noise < 7.0f)
         {
             this.GetComponent<SphereCollider>().radius = 8.0f;

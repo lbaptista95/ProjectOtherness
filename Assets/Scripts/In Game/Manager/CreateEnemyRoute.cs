@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CreateEnemyRoute : MonoBehaviour
 {
+    //SISTEMA DE ROTA DOS INIMIGOS, CADA WAYPOINT É UM PREFAB NO MAPA QUE DETERMINA POR ONDE O INIMIGO PASSA
     public string enemyTypeName;
     public GameObject[] waypoints;
     public GameObject enemyType;

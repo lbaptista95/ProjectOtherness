@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/LevelDesign Total/Scenes/Cena Menu/Menu.unity
     guid: 35e4c394c8705f44cb8a7aa858d069b1
   - enabled: 1
-    path: Assets/Cenas/Loading.unity
+    path: Assets/LevelDesign Total/Scenes/Loading.unity
     guid: 8a2b997aec3a03b4cb6b7005a77ec5da
   - enabled: 1
     path: Assets/LevelDesign Total/Scenes/Level Design - Casa Int.unity
@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/LevelDesign Total/Scenes/Level Design - Arena Boss.unity
     guid: f2c6ea3b8f6fddb45883a8058c6bd582
   - enabled: 1
-    path: Assets/Cenas/NextLevel.unity
+    path: Assets/LevelDesign Total/Scenes/NextLevel.unity
     guid: 4827e616f6b1f994ba72b359564c8de8
   - enabled: 1
     path: Assets/LevelDesign Total/Scenes/Level Design - Andar 49 - Chave.unity
@@ -44,4 +44,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LevelDesign Total/Scenes/Cutscenes/Kidnap/Cutscene - Kidnap.unity
     guid: 8e0ea2cefc32c5e43a21ea960fa844bc
+  - enabled: 1
+    path: Assets/LevelDesign Total/Scenes/Cutscenes/Rescue/Cutscene - Rescue.unity
+    guid: 0e142bc44108b6d4a82270d5f932362a
+  - enabled: 1
+    path: Assets/LevelDesign Total/Scenes/Cutscenes/Studying/Cutscene - Studying.unity
+    guid: 617b4cbf8eed7214f938f621d0e24c54
+  - enabled: 1
+    path: Assets/LevelDesign Total/Scenes/qg girafas/Level Design - QG Girafas 2.unity
+    guid: f03a3084453daae43b5c3363e715b803
+  - enabled: 1
+    path: Assets/LevelDesign Total/Scenes/Cutscenes/Final/Cutscene - Final.unity
+    guid: fe3e4da164417cd4f801bb594575557e
   m_configObjects: {}

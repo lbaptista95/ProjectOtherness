@@ -18,7 +18,7 @@ public class CamCTRL : MonoBehaviour
 
     void Update()
     {
-
+        //Camera centraliza no personagem do jogador
         target = GameObject.Find("June(Clone)");
         Vector3 pos = transform.position;
 

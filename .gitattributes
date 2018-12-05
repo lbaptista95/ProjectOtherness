@@ -2,3 +2,7 @@ sharedassets11.resource filter=lfs diff=lfs merge=lfs -text
 cutscene_001.mp4 filter=lfs diff=lfs merge=lfs -text
 LightingData.asset filter=lfs diff=lfs merge=lfs -text
 Terrain_Material_LBTerrainsSample_Data.asset filter=lfs diff=lfs merge=lfs -text
+pack-c29c729c49e25ae261e048b3ac7ea9b0acca2236.pack filter=lfs diff=lfs merge=lfs -text
+08cd21fdda9a723ed9cf15a4aa0f3251d6e57f9507c399e6f200bb59c1db9c27 filter=lfs diff=lfs merge=lfs -text
+898d609eac4c4777ed171587c23662274acd72afd3a4260169adce57c156959f filter=lfs diff=lfs merge=lfs -text
+fdc426a39489603104aa146cc4056db5c2ac1444e8c18486df2466b3d03ed9d8 filter=lfs diff=lfs merge=lfs -text

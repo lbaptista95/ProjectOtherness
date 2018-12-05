@@ -61,7 +61,7 @@ public class InimigoChave : MonoBehaviour
         enemyAnim = GetComponent<Animator>();
         enemyAgent = GetComponent<NavMeshAgent>();
         stopTime = 0;
-        sightRange = 25;
+        sightRange = 18;
         enemyRouteInfo = this.gameObject.name.Remove(0, 7);
         if (wayPositions.Count > 0)
         {
@@ -143,8 +143,10 @@ public class InimigoChave : MonoBehaviour
                             playerOnSight = false;
                     }
                 }
+                //Verifica se o player está visível para o inimigo
                 if (playerOnSight)
                 {
+                    //Avisa inimigos próximos caso player seja visto
                     for (int x = 0; x < enemies.Length; x++)
                     {
                         if (Vector3.Distance(transform.position, enemies[x].transform.position) <= 25)
@@ -154,6 +156,7 @@ public class InimigoChave : MonoBehaviour
                         }
                     }
                 }
+                //Caso tome tiro, o inimigo vira para a direção de onde foi atingido
                 if (beenShot)
                 {
                     if ((Mathf.Approximately(transform.rotation.w, shotRotation.w) && Mathf.Approximately(transform.rotation.y, shotRotation.y)) ||
@@ -179,7 +182,7 @@ public class InimigoChave : MonoBehaviour
                         GetComponentInChildren<Dialogue>().enabled = false;
                         enemyShield.GetComponent<Collider>().enabled = false;
                         fieldOfView = 150f;
-                        sightRange = 25;
+                        sightRange = 18;
                         enemyAgent.speed = enemySpeed;
                         if (enemyAgent.remainingDistance <= 0)
                         {
@@ -221,7 +224,7 @@ public class InimigoChave : MonoBehaviour
                             estado = ESTADO_INIMIGOCHAVE.DERROTADO;
                         }
                         break;
-
+                    //Estado em que persegue inimigo e fica sem escudo
                     case ESTADO_INIMIGOCHAVE.ATACANDO:
                         GetComponentInChildren<Dialogue>().enabled = false;
                         GetComponent<AtaqueInimigoChave>().enabled = true;
@@ -272,11 +275,12 @@ public class InimigoChave : MonoBehaviour
                             shieldTimer = 0;
                             estado = ESTADO_INIMIGOCHAVE.DEFENDENDO;
                         }
-                        if(GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().isDead)
+                        if (GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().isDead)
                         {
                             estado = ESTADO_INIMIGOCHAVE.OCIOSO;
                         }
                         break;
+                    //Estado em que fica parado e com escudo
                     case ESTADO_INIMIGOCHAVE.DEFENDENDO:
                         GetComponentInChildren<Dialogue>().enabled = false;
                         enemyAnim.SetFloat("Velocity", 0);
@@ -332,6 +336,7 @@ public class InimigoChave : MonoBehaviour
                 }
 
             }
+            //Caso esteja stunnado
             else
             {
                 estado = ESTADO_INIMIGOCHAVE.ATACANDO;
@@ -369,6 +374,7 @@ public class InimigoChave : MonoBehaviour
         }
     }
 
+    //Determina, caso haja waypoints de percurso para este inimigo, a rota e seu sentido
     void Direction(DIRECAO_INIMIGOCHAVE direction)
     {
         switch (direction)

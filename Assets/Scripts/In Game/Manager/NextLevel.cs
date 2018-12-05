@@ -25,6 +25,7 @@ public class NextLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Passa informações do jogador para a próxima cena
         if (canGo)
             if (player.GetComponent<AlternarControles>().interact)
             {

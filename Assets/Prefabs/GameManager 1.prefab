@@ -373,7 +373,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049384694918148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 275.15005, y: -242.95084, z: 132.19373}
+  m_LocalPosition: {x: 1.6282587, y: 73.546074, z: 130.47072}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224984242645450312}
@@ -577,7 +577,7 @@ MonoBehaviour:
   deaths: 0
   saveManager: {fileID: 1654044940242934, guid: 6c6e5ac5b63458640bfd15be9ed08807,
     type: 2}
-  junePrefab: {fileID: 1207258827430824, guid: cec2a5c322daf124ebad7d0296d9d651, type: 2}
+  junePrefab: {fileID: 1600587957734698, guid: b2a22d4782782424e9476595e1536a3e, type: 2}
   enemyPrefab: {fileID: 0}
   juneSpawn: {fileID: 0}
   enemySpawn: []

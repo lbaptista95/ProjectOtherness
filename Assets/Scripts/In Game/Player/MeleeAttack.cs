@@ -23,22 +23,27 @@ public class MeleeAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Só é possível executar um ataque corpo a corpo quando june não está atirando
         if (anim.runtimeAnimatorController != null && anim.runtimeAnimatorController.name == "JuneComum")
         {
-
+            //Se há algum inimigo próximo a June 
             if (attackedEnemy != null)
             {
                 RaycastHit rHit;
+                //Se entre June e o inimigo não há uma parede
                 if (Physics.Raycast(transform.parent.position, attackedEnemy.transform.position - transform.parent.position, out rHit, GetComponent<SphereCollider>().radius))
                 {
                     Debug.DrawRay(transform.parent.position, attackedEnemy.transform.position - transform.parent.position, Color.red);
                     if (rHit.collider.gameObject.CompareTag("Enemy"))
                     {
                         print("INIMIGO PROXIMO");
+                        //Se o inimigo está na frente de june
                         if (Vector3.Angle(transform.forward, attackedEnemy.transform.position - transform.position) <= 75)
                         {
+                            //Se é um inimigo comum
                             if (attackedEnemy.GetComponent<MoverInimigo>() != null)
                             {
+                                //Se o inimigo está parado e distraído
                                 if (attackedEnemy.GetComponent<MoverInimigo>().estado == ESTADO_INIMIGO.OCIOSO ||
                                     (attackedEnemy.GetComponent<MoverInimigo>().estado == ESTADO_INIMIGO.ALERTA && 
                                     attackedEnemy.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Idle") && 

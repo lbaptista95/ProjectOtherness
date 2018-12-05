@@ -440,7 +440,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.078
+    value: 0.052
   size:
     overrideState: 0
     value: 1
@@ -458,16 +458,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
   intensity:
     overrideState: 1
-    value: 0.68
+    value: 0
   threshold:
     overrideState: 1
-    value: 0.45
+    value: 2.69
   softKnee:
     overrideState: 0
     value: 0.5
@@ -479,7 +479,7 @@ MonoBehaviour:
     value: 0
   color:
     overrideState: 1
-    value: {r: 1, g: 1, b: 1, a: 1}
+    value: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
   mobileOptimized:
     overrideState: 1
     value: 0
@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -565,7 +565,7 @@ MonoBehaviour:
     overrideState: 0
     value: {fileID: 0}
   intensity:
-    overrideState: 1
+    overrideState: 0
     value: 1
   mobileOptimized:
     overrideState: 0

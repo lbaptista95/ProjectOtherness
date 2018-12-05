@@ -2879,7 +2879,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1977830728677314}
   m_LocalRotation: {x: -0, y: -0.71928984, z: -0, w: 0.6947102}
-  m_LocalPosition: {x: 457.5, y: -394.58, z: 458.6}
+  m_LocalPosition: {x: 464.23, y: -394.58, z: 458.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4549502791962490}
@@ -3369,7 +3369,7 @@ MonoBehaviour:
   - BossDialogue
   endOfStories:
   - (Go)
-  interaction: 
+  interaction: talk to Elliot
   missions: []
   endOfMissions: []
 --- !u!114 &114550121622105740
@@ -3383,7 +3383,7 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: b3ee8b371fe906641bce5a047a5344b2, type: 2}
   m_Color: {r: 1, g: 0, b: 0, a: 0.62352943}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -3450,7 +3450,7 @@ MonoBehaviour:
   bossShot: {fileID: 198627799419353524}
   bossState: 0
   fumaca: 0
-  sightAngle: 360
+  sightAngle: 720
   player: {fileID: 0}
   crossHair: {fileID: 0}
 --- !u!114 &114871347220948184

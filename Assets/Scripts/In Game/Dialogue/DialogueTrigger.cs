@@ -32,13 +32,14 @@ public class DialogueTrigger : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Level Design - QG Girafas")
         {
             GameObject.FindGameObjectWithTag("NextLevel").GetComponent<BoxCollider>().enabled = false;
-        }
+        }        
     }
 
     private void Update()
     {
+        //Caso haja alguém com quem conversar
         if (interlocutor != null)
-            if (Vector3.Angle(transform.root.forward, (interlocutor.transform.position - transform.root.position)) <= 120)
+            if (Vector3.Angle(transform.parent.forward, (interlocutor.transform.position - transform.parent.position)) <= 120)
             {
                 if (interlocutor.GetComponent<Dialogue>().interaction != "")
                 {
@@ -49,10 +50,11 @@ public class DialogueTrigger : MonoBehaviour
             }
             else
             {
-                playerControl.ClearInteractions();                
+                playerControl.ClearInteractions();
                 if (twineTextPlayer == null)
                     askingToChat = false;
             }
+        //Caso esse alguém também queira conversar
         if (askingToChat)
         {
             if (interlocutor.GetComponent<Dialogue>().interaction != "")
@@ -61,12 +63,13 @@ public class DialogueTrigger : MonoBehaviour
                 {
                     mouse.GetComponent<Renderer>().enabled = false;
                     Cursor.visible = true;
-                    TriggerDialogue();                    
+                    TriggerDialogue();
                 }
             }
+            //Só pode haver um TwineTextPlayer por cena, isso verifica se existe
             if (twineTextPlayer != null)
             {
-                twineTextPlayer.GetComponent<Canvas>().enabled = true;                
+                twineTextPlayer.GetComponent<Canvas>().enabled = true;
                 if (mouseControl.enabled)
                     mouseControl.enabled = false;
                 GetComponentInParent<NavMeshAgent>().isStopped = true;
@@ -75,8 +78,10 @@ public class DialogueTrigger : MonoBehaviour
                 keyControl.enabled = false;
                 if (twineTextPlayer.GetComponent<TwineTextPlayer>().GetComponent<Canvas>().enabled)
                     playerControl.ClearInteractions();
+                //Caso haja somente um diálogo permitido com o NPC
                 if (interlocutor.GetComponent<Dialogue>().endOfStories.Length == 1)
                 {
+                    //Caso o diálogo chegue ao seu fim (determinado por algume passagem)
                     if (twineTextPlayer.GetComponent<TwineTextPlayer>().Story.CurrentPassage.Name == interlocutor.GetComponent<Dialogue>().endOfStories[0] ||
                         (twineTextPlayer.GetComponent<TwineTextPlayer>().Story.CurrentPassage.Name == "Passagem Sem Nome" && twineTextPlayer.GetComponent<TwineTextPlayer>().Story.CurrentPassage.Index > 0))
                     {
@@ -101,17 +106,21 @@ public class DialogueTrigger : MonoBehaviour
                             GameObject.Find("Barreira1").GetComponent<BoxCollider>().enabled = false;
                             GameObject.Find("Barreira1").GetComponent<NavMeshObstacle>().enabled = false;
                         }
+                        if (interlocutor.GetComponent<HelenaDialogue>() != null)
                         {
                             for (int x = 0; x < GameObject.FindGameObjectsWithTag("InfoBoard").Length; x++)
                             {
                                 GameObject.FindGameObjectsWithTag("InfoBoard")[x].GetComponent<SphereCollider>().enabled = true;
                             }
                         }
+                        if(interlocutor.GetComponent<HelenaDialogue2>() != null)
+                        {
+                            GameObject.FindGameObjectWithTag("NextLevel").GetComponent<BoxCollider>().enabled = true;
+                        }
                         if (interlocutor.name == "Quadro4")
                         {
                             GetComponentInParent<AlternarControles>().mission = false;
-                            GameObject.Find("Quest").GetComponent<Text>().text = "You have the Staff now. Press Q to draw it and Space to use it";
-                            GetComponentInParent<ControleTeclado>().isGiraffe = true;
+                            GameObject.Find("Quest").GetComponent<Text>().text = "";
                             GameObject.FindGameObjectWithTag("NextLevel").GetComponent<BoxCollider>().enabled = true;
                         }
                         if (interlocutor.name == "Boss")
@@ -121,6 +130,10 @@ public class DialogueTrigger : MonoBehaviour
                         if (interlocutor.name == "SoldadoMorto")
                         {
                             interlocutor.GetComponent<Animator>().SetTrigger("Die");
+                            interlocutor.GetComponent<Dialogue>().enabled = false;
+                            playerControl.ClearInteractions();
+                            interlocutor = null;
+                            askingToChat = false;
                             Destroy(GameObject.Find("ParedeInvisivelPonte"));
                         }
                         Destroy(twineTextPlayer);
@@ -129,20 +142,18 @@ public class DialogueTrigger : MonoBehaviour
                         if (mouseControl.enabled)
                             mouseControl.enabled = false;
                         GetComponentInParent<NavMeshAgent>().isStopped = false;
-                        keyControl.enabled = true;
+                        keyControl.enabled = true;                        
                     }
-                }
-                if (twineTextPlayer.GetComponent<TwineTextPlayer>().Story.CurrentPassage.Name == "(Hand him the letter)")
-                {
-                    GameObject.Find("Quest").GetComponent<Text>().text = "";
-                    GetComponentInParent<AlternarControles>().mission = false;
-                    var tempColor = GameObject.Find("QuestIMG").GetComponent<Image>().color;
-                    tempColor.a = 0f;
-                    GameObject.Find("QuestIMG").GetComponent<Image>().color = tempColor;
-                }
+                    else if (twineTextPlayer.GetComponent<TwineTextPlayer>().Story.CurrentPassage.Name == "Fine, I'll find her")
+                    {
+                        GetComponentInParent<ControleTeclado>().isGiraffe = true;
+                    }
+                }                
             }
         }
     }
+
+    //Instancia o TwineTextPlayer, prefab que cria a caixa de diálogo com seus textos
     public void TriggerDialogue()
     {
         playerControl.chating = true;
@@ -162,7 +173,7 @@ public class DialogueTrigger : MonoBehaviour
         }
         twineTextPlayer.GetComponent<Canvas>().enabled = true;
         twineTextPlayer.GetComponent<TwineTextPlayer>().StartStory = true;
-        twineTextPlayer.GetComponent<TwineTextPlayer>().Story.Begin();        
+        twineTextPlayer.GetComponent<TwineTextPlayer>().Story.Begin();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -186,7 +197,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Dialogue>() != null && other.gameObject.GetComponent<Dialogue>().enabled)
         {
-            
+
             interlocutor = null;
             playerControl.ClearInteractions();
             typeOfInteraction = "";

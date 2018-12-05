@@ -38,7 +38,7 @@ public class CheckPoint : MonoBehaviour
             enemyTypes = new string[enemies.Length];
             for (int x = 0; x < enemies.Length; x++)
             {
-                if (enemies[x].GetComponent<MoverInimigo>()!= null)
+                if (enemies[x].GetComponent<MoverInimigo>() != null)
                 {
                     enemiesInfo[x] = enemies[x].GetComponent<MoverInimigo>().enemyRouteInfo;
                     enemiesRotation[x] = enemies[x].transform.rotation;
@@ -47,7 +47,7 @@ public class CheckPoint : MonoBehaviour
                 }
                 else if (enemies[x].GetComponent<InimigoChave>() != null)
                 {
-                    PlayerPrefs.SetFloat("EnemyLife",enemies[x].GetComponent<KeyEnemyHealth>().enemyCurrentHealth);
+                    PlayerPrefs.SetFloat("EnemyLife", enemies[x].GetComponent<KeyEnemyHealth>().enemyCurrentHealth);
                     enemiesInfo[x] = enemies[x].GetComponent<InimigoChave>().enemyRouteInfo;
                     enemiesRotation[x] = enemies[x].transform.rotation;
                     enemyTypes[x] = enemies[x].GetComponent<InimigoChave>().eTypeName;
@@ -57,21 +57,22 @@ public class CheckPoint : MonoBehaviour
             sceneName = SceneManager.GetActiveScene().name;
             player = other.gameObject;
             PlayerPrefsX.SetVector3("Personagem", player.transform.position);
-            PlayerPrefsX.SetBool("Girafa", player.GetComponent<ControleTeclado>().isGiraffe);
-            PlayerPrefsX.SetStringArray("Inimigos", enemiesInfo);
+            PlayerPrefsX.SetBool("Girafa", player.GetComponent<ControleTeclado>().isGiraffe);            
+            PlayerPrefsX.SetStringArray("Inimigos", enemiesInfo);            
             PlayerPrefsX.SetStringArray("TiposDeInimigo", enemyTypes);
             PlayerPrefsX.SetQuaternionArray("Canvas", enemiesCanvasRotation);
             PlayerPrefs.SetString("Cena", sceneName);
-            PlayerPrefsX.SetQuaternionArray("RotacaoInimigos", enemiesRotation);
+            if (enemiesRotation != null)
+                PlayerPrefsX.SetQuaternionArray("RotacaoInimigos", enemiesRotation);
             PlayerPrefs.SetInt("PlayerHealth", gManager.GetComponent<GameManager>().currentHealth);
             PlayerPrefs.SetString("Mission", GameObject.Find("Quest").GetComponent<Text>().text);
             PlayerPrefsX.SetBool("MissionBool", player.GetComponentInParent<AlternarControles>().mission);
             if (GameObject.Find("QuestIMG").GetComponent<Image>().sprite != null)
                 PlayerPrefs.SetString("QuestIMG", GameObject.Find("QuestIMG").GetComponent<Image>().sprite.name);
             PlayerPrefsX.SetColor("QuestColor", GameObject.Find("QuestIMG").GetComponent<Image>().color);
-            if (GameObject.FindGameObjectWithTag("NextLevel")!=null)
+            if (GameObject.FindGameObjectWithTag("NextLevel") != null)
                 PlayerPrefsX.SetBool("NextLevel", GameObject.FindGameObjectWithTag("NextLevel").GetComponent<BoxCollider>().enabled);
-            if (GameObject.FindGameObjectsWithTag("Barreira")!=null)
+            if (GameObject.FindGameObjectsWithTag("Barreira") != null)
             {
                 for (int x = 0; x < GameObject.FindGameObjectsWithTag("Barreira").Length; x++)
                 {

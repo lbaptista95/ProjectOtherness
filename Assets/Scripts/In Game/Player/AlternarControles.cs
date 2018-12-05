@@ -39,6 +39,7 @@ public class AlternarControles : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Verifica se há algum interação disponível para o player
         if (askingToInteract)
         {
             if (Input.GetKeyDown(KeyCode.E))
@@ -65,8 +66,10 @@ public class AlternarControles : MonoBehaviour
         }
         else
             mouse.GetComponent<Renderer>().enabled = true;
+        //Caso jogador não esteja conversando com algum personagem
         if (!chating)
         {
+            //Alternar de controle comum para o controle com a arma sacada
             if (Input.GetMouseButton(1))
             {
                 if (SceneManager.GetActiveScene().name != "Level Design - QG Girafas")
@@ -100,6 +103,7 @@ public class AlternarControles : MonoBehaviour
             gameManager.GetComponent<GameManager>().TakeDamage(20);
     }
 
+    //Quando há interação disponível, este método mostrará a mensagem
     public void InteractionAvailable(string interaction)
     {
         interactionType = interaction;
@@ -107,6 +111,7 @@ public class AlternarControles : MonoBehaviour
         askingToInteract = true;
     }
 
+    //Quando não houver mais interação disponível, este método limpará a tela
     public void ClearInteractions()
     {        
         gameMessage.GetComponent<Text>().text = "";

@@ -110,6 +110,7 @@ public class ControleTeclado : MonoBehaviour
                 anim.SetBool("Crouch", false);
                 anim.SetBool("Run", false);
             }
+            //O cajado só fica disponível quando June já é girafa
             if (isGiraffe)
             {
                 for (int x=0;x< GameObject.FindGameObjectWithTag("JuneMask").GetComponentsInChildren<SkinnedMeshRenderer>().Length;x++)
@@ -170,6 +171,10 @@ public class ControleTeclado : MonoBehaviour
                 {
                     if (peaceTimer == 0)
                     {
+                        for (int x = 1; x < ability1Particles.Length; x++)
+                        {
+                            ability1Particles[x].Clear();
+                        }
                         peaceTimer += Time.deltaTime;
                         anim.SetLayerWeight(1, 1);
                         abilityAttractor.transform.position = cursor.transform.position;
@@ -186,7 +191,7 @@ public class ControleTeclado : MonoBehaviour
             {
                 stun.GetComponent<Image>().sprite = Resources.Load<Sprite>("StunNaoOk");
                 stun.GetComponent<Image>().enabled = true;
-                peaceTimer += Time.deltaTime;
+                peaceTimer += Time.deltaTime;                
             }
             else if (peaceTimer >= 12)
             {
@@ -196,7 +201,7 @@ public class ControleTeclado : MonoBehaviour
             if (anim.GetCurrentAnimatorStateInfo(1).normalizedTime >= 0.9f && anim.GetCurrentAnimatorStateInfo(1).IsName("Using Staff"))
             {
                 for (int x = 1; x < ability1Particles.Length; x++)
-                {
+                {                    
                     ability1Particles[x].Emit(1);
                 }
             }

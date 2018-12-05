@@ -230,6 +230,7 @@ public class MoverInimigo : MonoBehaviour
                         if (gameManager.GetComponent<GameManager>().isDead)
                         {
                             estado = ESTADO_INIMIGO.OCIOSO;
+                            enemyAgent.SetDestination(wayPositions[0]);
                         }
                         break;
                     case ESTADO_INIMIGO.ALERTA:

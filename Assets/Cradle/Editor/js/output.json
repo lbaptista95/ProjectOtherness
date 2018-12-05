@@ -8,7 +8,7 @@
                 "Tags": "",
                 "Tokens": [
                     {
-                        "text": " \"A place to remember those who are gone...\"",
+                        "text": "Well, June, I think it's time now... You can call yourself a giraffe.",
                         "type": "text"
                     },
                     {
@@ -16,29 +16,21 @@
                         "type": "br"
                     },
                     {
-                        "text": " ",
-                        "type": "text"
-                    },
-                    {
                         "text": "\n",
                         "type": "br"
                     },
                     {
-                        "text": " ",
-                        "type": "text"
-                    },
-                    {
-                        "innerText": "link-goto:\"<Exit>\",\"<Exit>\"",
+                        "innerText": "link-goto:\"Oh... Thanks!\",\"Oh... Thanks!\"",
                         "name": "linkgoto",
-                        "text": "(link-goto:\"<Exit>\",\"<Exit>\")",
+                        "text": "(link-goto:\"Oh... Thanks!\",\"Oh... Thanks!\")",
                         "tokens": [
                             {
                                 "text": "link-goto:",
                                 "type": "macroName"
                             },
                             {
-                                "innerText": "<Exit>",
-                                "text": "\"<Exit>\"",
+                                "innerText": "Oh... Thanks!",
+                                "text": "\"Oh... Thanks!\"",
                                 "type": "string"
                             },
                             {
@@ -46,8 +38,8 @@
                                 "type": "comma"
                             },
                             {
-                                "innerText": "<Exit>",
-                                "text": "\"<Exit>\"",
+                                "innerText": "Oh... Thanks!",
+                                "text": "\"Oh... Thanks!\"",
                                 "type": "string"
                             }
                         ],
@@ -56,8 +48,331 @@
                 ]
             },
             {
-                "Name": "<Exit>",
+                "Name": "Oh... Thanks!",
                 "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "I have a request for you... Of course, if you're willing to do it.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Sure, I'll do it!\",\"Sure, I'll do it!\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Sure, I'll do it!\",\"Sure, I'll do it!\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Sure, I'll do it!",
+                                "text": "\"Sure, I'll do it!\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Sure, I'll do it!",
+                                "text": "\"Sure, I'll do it!\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Sure, I'll do it!",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "I invite you to join the cause and move forward with us. With your skills, you're more than suited for the task.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"And what do I have to do?\",\"And what do I have to do?\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"And what do I have to do?\",\"And what do I have to do?\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "And what do I have to do?",
+                                "text": "\"And what do I have to do?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "And what do I have to do?",
+                                "text": "\"And what do I have to do?\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "And what do I have to do?",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "We are unable to access a key part of the city because one of the Jackal leaders, Elliot, is killing every single one who approaches and doesn't have a permission granted by the Government. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Oh my god! And how can I help you?\",\"Oh my god! And how can I help you?\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Oh my god! And how can I help you?\",\"Oh my god! And how can I help you?\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Oh my god! And how can I help you?",
+                                "text": "\"Oh my god! And how can I help you?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Oh my god! And how can I help you?",
+                                "text": "\"Oh my god! And how can I help you?\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Oh my god! And how can I help you?",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "If you try your new abilities, maybe you can find his sister and talk to her. One of our sources said she may listen and help us, because she hates her brother.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "See if you can find a way to learn something that could help us get access to the other part of the city.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Fine, I'll find her\",\"Fine, I'll find her\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Fine, I'll find her\",\"Fine, I'll find her\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Fine, I'll find her",
+                                "text": "\"Fine, I'll find her\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Fine, I'll find her",
+                                "text": "\"Fine, I'll find her\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Fine, I'll find her",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Here, have this.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"What's this?\",\"What's this?\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"What's this?\",\"What's this?\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "What's this?",
+                                "text": "\"What's this?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "What's this?",
+                                "text": "\"What's this?\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "What's this?",
+                "Pid": "7",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "It's a staff with powerful essential oils mixed in a way that only us Giraffes know how to do it. It's ancient knowledge and your mother helped us to perfect it. Use it wisely to calm down people who attack you or to go by without hurting others... and yourself.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Right\",\"Right\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Right\",\"Right\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Right",
+                                "text": "\"Right\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Right",
+                                "text": "\"Right\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Right",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "I know you have been through a lot and revisiting your past of violence may be a huge hit on your brain. But trust me, you are ready and you can  do it. I've seen your evolution. Just watch out and try to not be violent with who you encounter, if you can.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ok, I'll try it\",\"Ok, I'll try it\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ok, I'll try it\",\"Ok, I'll try it\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ok, I'll try it",
+                                "text": "\"Ok, I'll try it\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Ok, I'll try it",
+                                "text": "\"Ok, I'll try it\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Ok, I'll try it",
+                "Pid": "9",
                 "Tags": "",
                 "Tokens": [
                     {

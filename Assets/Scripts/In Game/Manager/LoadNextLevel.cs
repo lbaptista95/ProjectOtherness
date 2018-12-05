@@ -14,6 +14,7 @@ public class LoadNextLevel : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //Caso o jogador tenha pressionado Load Game
         if (saveManager.GetComponent<SaveManager>().gameLoaded)
             saveManager.GetComponent<SaveManager>().gameLoaded = false;
         _sceneName = saveManager.GetComponent<SaveManager>().nextScene;

@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4486110378451230}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: inimigo_001_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4745401057069712}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4231501156129024}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: "P\xE9lvis"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4089127816450836}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Indicador_C_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4882399681929944}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ombro_Esq_FK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4191691380546212}
   - component: {fileID: 137073014142827686}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: mascara_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4212440724851432}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pulso_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4528704050982324}
   - component: {fileID: 137779321393092046}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: olhos_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4753958162047548}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Capuz_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4055756979101878}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Visao
   m_TagString: CabecaInimigo
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4140375756591628}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Indicador_B_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 136051615022028492}
   - component: {fileID: 54781377519385644}
   - component: {fileID: 144096901594653456}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Coxa_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4088441798777060}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedao_B_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4925418564407720}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: June_Joints_grp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4231869667117564}
   - component: {fileID: 137645755710388530}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: blusa_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4850422563707590}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Cintura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4686816029968622}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pulso_Dir_FK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4577493527108784}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Roupa_Frente_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 136751532994362700}
   - component: {fileID: 54816291046554072}
   - component: {fileID: 144249950837307628}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Joelho_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -313,7 +313,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4199972209785416}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pulso_Esq_FK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4987414373274338}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Roupa_Atras_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4601391816842048}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Mandibula_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4727170708017916}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Indicador_C_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4813767141085910}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedao_C_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4453818564973596}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedos_C_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4530825820846428}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Mandibula
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +418,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4100337496042490}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ossinho_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4557399474315638}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Cotov_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4840988250011090}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Col_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4797574371625696}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Cotov_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4018076503111858}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Capuz_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4263821738881818}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ossinho_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4518052177513984}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Joelho_Dir_IK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4891906999751324}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Mandibula_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4961801713294670}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Joelho_Esq_IK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4651460360858072}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Ombro_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4156339327015768}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Pulso_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4902845460155662}
   - component: {fileID: 137097460131429508}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: vidro_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,7 +599,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4666010344355042}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedos_A_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4045266994362488}
   - component: {fileID: 137124034688426624}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: bracelete_001_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4203125772471478}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Pescoco_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4921530737033406}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pescoco_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4324446873959152}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedao_B_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,7 +675,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4715969193012444}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Roupa_Frente_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 224480682561452406}
   - component: {fileID: 222285801976092154}
   - component: {fileID: 114060494926000400}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -707,7 +707,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4251460200240576}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cabeca_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4002522723877494}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: June_Curvas_grp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +737,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4085099091601774}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Capuz_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -755,7 +755,7 @@ GameObject:
   - component: {fileID: 136125737370215360}
   - component: {fileID: 54474049411727962}
   - component: {fileID: 144778999173178174}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ombro_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +770,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4676790271110854}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: oculos_grp_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,7 @@ GameObject:
   - component: {fileID: 136586120434350860}
   - component: {fileID: 54133338052225414}
   - component: {fileID: 144984650950960750}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Coxa_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4408039649130794}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Col_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -818,7 +818,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4465154167268434}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ombro_Dir_FK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +836,7 @@ GameObject:
   - component: {fileID: 136179083192625262}
   - component: {fileID: 54259913609712472}
   - component: {fileID: 144164716400097198}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ombro_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -851,7 +851,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4973068938410034}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Peito_Pe_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -866,7 +866,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4654934458561976}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cabeca_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +881,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4047492499142052}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Pescoco_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -896,7 +896,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4267379475077946}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Palma_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +911,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4601359620435422}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cotovelo_Dir_FK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,7 +927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4141966731489388}
   - component: {fileID: 137003399691608860}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: calca_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -942,7 +942,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4999334449022860}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedao_A_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +957,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4395458259164526}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Coxa_Dir_IK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -972,7 +972,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4696506706118932}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cotovelo_Esq_FK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -987,7 +987,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4577024475578110}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedos_B_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1005,7 +1005,7 @@ GameObject:
   - component: {fileID: 65748173430426124}
   - component: {fileID: 54206493506949974}
   - component: {fileID: 144135262044761908}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Col_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4703088177863920}
   - component: {fileID: 137361230103681708}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: bracelete_002_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1036,7 +1036,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4913431857358884}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Palma_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1051,7 +1051,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4175980386385322}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ossinho_Dir_IK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4775883160560758}
   - component: {fileID: 137134007447287750}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: sapato_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1082,7 +1082,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4192674491721300}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1097,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4538566697563328}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Pulso_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1112,7 +1112,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4596639679005730}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Peito_Pe_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,7 +1127,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4439266278789734}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Roupa_Atras_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1145,7 +1145,7 @@ GameObject:
   - component: {fileID: 136785497122709234}
   - component: {fileID: 54119669118195622}
   - component: {fileID: 144821928401588380}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cotovelo_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1165,7 @@ GameObject:
   - component: {fileID: 114304309441243842}
   - component: {fileID: 114960277863617048}
   - component: {fileID: 222964845795385978}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1180,7 +1180,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4489516549710620}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedos_C_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1195,7 +1195,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4814339468811990}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ponta_Pe_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,8 +1211,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4861908279736232}
   - component: {fileID: 54034354594060686}
-  - component: {fileID: 136017172425764828}
-  m_Layer: 10
+  - component: {fileID: 65254176608809356}
+  m_Layer: 0
   m_Name: SoldadoMortoInanimado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1227,7 +1227,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4708412656204972}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Indicador_A_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4994711659550004}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Indicador_B_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1257,7 +1257,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4268329518951656}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Ombro_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1272,7 +1272,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4934008352597604}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedao_C_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1287,7 +1287,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4939617859108146}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedao_A_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1302,7 +1302,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4324056023489408}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Indicador_A_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1317,7 +1317,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4445781214907998}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedos_B_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1334,7 +1334,7 @@ GameObject:
   - component: {fileID: 4809348731413626}
   - component: {fileID: 65361559440459082}
   - component: {fileID: 54129193463835116}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cintura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1349,7 +1349,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4183965625185512}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Roupa_Frente_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1364,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4606886430222008}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: group1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1379,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4097799866236182}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: ShootSeeker
   m_TagString: ShootSeeker
   m_Icon: {fileID: 0}
@@ -1394,7 +1394,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4028084547624512}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Col_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,7 +1409,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4575262778950704}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Clavicula_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1424,7 +1424,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4357208673724346}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pulso_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4442194836434878}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ossinho_Esq_IK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1454,7 +1454,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4637635770375856}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dedos_A_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1472,7 @@ GameObject:
   - component: {fileID: 135291729110017612}
   - component: {fileID: 54256169625237126}
   - component: {fileID: 144389317180638384}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Pescoco_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1487,7 +1487,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4746120766954688}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cv_Col_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1502,7 +1502,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4857080311610432}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Clavicula_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1517,7 +1517,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4448001044920302}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Ponta_Pe_Dir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1535,7 +1535,7 @@ GameObject:
   - component: {fileID: 136822199714513142}
   - component: {fileID: 54486926090685200}
   - component: {fileID: 144450549688344754}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Joelho_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1550,7 +1550,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4618237252512274}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Coxa_Esq_IK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1566,7 +1566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4885503516732458}
   - component: {fileID: 137705957503710084}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: corpo_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1581,7 +1581,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4503590355066700}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Col_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1599,7 +1599,7 @@ GameObject:
   - component: {fileID: 136940707901712498}
   - component: {fileID: 54949868948827234}
   - component: {fileID: 144850821012268672}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cotovelo_Esq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2815,8 +2815,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1792097632569366}
-  m_LocalRotation: {x: -0.72932214, y: -0, z: -0, w: 0.6841705}
-  m_LocalPosition: {x: 278.11478, y: -245.26, z: 305.0586}
+  m_LocalRotation: {x: -0.7136716, y: -0, z: -0, w: 0.7004804}
+  m_LocalPosition: {x: 278.11478, y: -244.922, z: 303.83176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4486110378451230}
@@ -2826,7 +2826,7 @@ Transform:
   - {fileID: 224979475361599066}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -63.442, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -91.06899, y: 0, z: 0}
 --- !u!4 &4882399681929944
 Transform:
   m_ObjectHideFlags: 1
@@ -3034,7 +3034,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!54 &54119669118195622
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -3200,6 +3200,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65254176608809356
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1792097632569366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.129608, y: 0, z: 1}
+  m_Center: {x: 0.35090637, y: -0.5000142, z: 3.767402e-10}
 --- !u!65 &65361559440459082
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -3318,19 +3330,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.17000008
   m_Center: {x: -0.17000008, y: 0, z: 0}
---- !u!136 &136017172425764828
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1792097632569366}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1
-  m_Height: 5
-  m_Direction: 1
-  m_Center: {x: 0, y: 2, z: 0}
 --- !u!136 &136051615022028492
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -3947,7 +3946,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.21999225, y: -0.17999266, z: -0.04953523}
+  m_ConnectedAnchor: {x: -0.21998546, y: -0.17999266, z: -0.049548462}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -3991,7 +3990,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000011753039, y: -1.8189894e-12, z: 0.0000070780516}
+  m_ConnectedAnchor: {x: 0.000014614062, y: -1.8189894e-12, z: 0.000004693866}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -4035,7 +4034,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.0000062, y: 0.33999622, z: 0.0000008791685}
+  m_ConnectedAnchor: {x: -1.000006, y: 0.33999622, z: -0.0000026971102}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -4079,7 +4078,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.7730366, y: -0.0000073611736, z: -0.00000333786}
+  m_ConnectedAnchor: {x: -0.773051, y: -0.0000072717667, z: -0.000002361834}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -4123,7 +4122,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.2599971, y: -0.00000011920929, z: -0.0000077039}
+  m_ConnectedAnchor: {x: -1.2599998, y: -0.00000011920929, z: -0.0000048428774}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: -1, z: 0}
   m_TwistLimitSpring:
@@ -4167,7 +4166,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.7730366, y: 0.0000071823597, z: 0.0000033676624}
+  m_ConnectedAnchor: {x: 0.7730511, y: 0.000007212162, z: 0.000002399087}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: -1, z: 0}
   m_TwistLimitSpring:
@@ -4211,7 +4210,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.0000062, y: -0.33999646, z: 0.0000008791685}
+  m_ConnectedAnchor: {x: -1.000006, y: -0.33999646, z: -0.0000026971102}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -4255,7 +4254,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.54000497, y: -0.000006377697, z: -0.00000087916874}
+  m_ConnectedAnchor: {x: 0.54000497, y: -0.0000061392784, z: 0.0000026971106}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -4299,7 +4298,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.5400052, y: 0.0000061392784, z: 0.0000008791685}
+  m_ConnectedAnchor: {x: -0.5400052, y: 0.00000590086, z: -0.0000026971102}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -4343,7 +4342,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.21999222, y: 0.17999272, z: -0.04953523}
+  m_ConnectedAnchor: {x: -0.21998543, y: 0.17999272, z: -0.049548462}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:

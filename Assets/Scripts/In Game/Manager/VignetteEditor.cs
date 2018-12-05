@@ -5,7 +5,7 @@ using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.PostProcessing;
 public class VignetteEditor : MonoBehaviour {
 
-    
+    //EDITA A VINHETA DO JOGO DE ACORDO COM A QUANTIDADE DE MORTE DE INIMIGOS APÓS JUNE VIRAR GIRAFA
     GameObject gameManager;
     public PostProcessVolume ppvol;
     public PostProcessProfile ppProfile;

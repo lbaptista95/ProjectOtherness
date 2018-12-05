@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SaveManager : MonoBehaviour
 {
+    //SaveManager serve para passar informações importantes entre cenas 
     public bool gameLoaded;
     public string nextScene;
     public bool isJuneGiraffe;

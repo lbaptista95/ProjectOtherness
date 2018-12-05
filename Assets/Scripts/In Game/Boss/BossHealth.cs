@@ -26,7 +26,7 @@ public class BossHealth : MonoBehaviour
         bossBehavior = GetComponent<Boss1>();
         bossCurrentHealth = bossStartingHealth;
         bossAnim.SetLayerWeight(1, 0);
-        GetComponent<Dialogue>().enabled = false;
+        GetComponent<BossPass>().enabled = false;
     }
 
     // Update is called once per frame
@@ -49,7 +49,7 @@ public class BossHealth : MonoBehaviour
             bossAnim.SetBool("Falling", true);           
             bossBehavior.enabled = false;
             Cursor.visible = true;
-            GetComponent<Dialogue>().enabled = true;
+            GetComponent<BossPass>().enabled = true;
         }
     }
 

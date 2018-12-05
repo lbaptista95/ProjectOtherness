@@ -24,6 +24,7 @@ public class GettingWet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Molha June de acordo com a quantidade de chuva que ela vai tomando
         for (int x = 0; x < juneMaterials.Length; x++)
         {
             if (juneMaterials[x].name == "JuneWet (Instance)")

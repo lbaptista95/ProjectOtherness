@@ -3588,9 +3588,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1642cf3dc097d694e9125ba1f159aa7c, type: 3}
   - {fileID: 8300000, guid: bcad148e27d4a9d418abfe276ab8fcf3, type: 3}
   - {fileID: 8300000, guid: b0a5b4d07b9b96244a13595f8486d59a, type: 3}
-  - {fileID: 8300000, guid: a133fcc2b7064af458e0f7c737c56ca7, type: 3}
-  - {fileID: 8300000, guid: 1e05764810ff9224b8038ebbfb1f7a00, type: 3}
-  - {fileID: 8300000, guid: 15b45a0fa5f5cb2449abd1c8c01e9b05, type: 3}
+  - {fileID: 8300000, guid: 948a43c8cecdc9440ac1a4ae92c26cbe, type: 3}
+  - {fileID: 8300000, guid: ef3e0f9f92257b244832ab4c7a105153, type: 3}
+  - {fileID: 8300000, guid: 948a43c8cecdc9440ac1a4ae92c26cbe, type: 3}
   - {fileID: 8300000, guid: e08c2ff8f13dd6f4685accab23cb7319, type: 3}
 --- !u!114 &114334850626031376
 MonoBehaviour:
@@ -4854,7 +4854,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
-  m_Acceleration: 15
+  m_Acceleration: 30
   avoidancePriority: 50
   m_AngularSpeed: 1000
   m_StoppingDistance: 0
