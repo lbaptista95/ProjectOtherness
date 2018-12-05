@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - TiroPlayer
+  - Staff
+  - PeacePoint
+  - Peace
+  - Shoot
+  - SaveButton
+  - GameManager
+  - Cursor
+  - DamageImage
+  - HealthSlider
+  - PauseMenu
+  - SaveManager
+  - JuneSpawnPoint
+  - EnemySpawnPoint
+  - LoadingImage
+  - Waypoint
+  - ShootSeeker
+  - Boss1
+  - Angle0
+  - Angle1
+  - Crosshair0
+  - Crosshair1
+  - KillerCanvas
+  - PlayerDialogue
+  - DialogueBox
+  - TwineTextPlayer
+  - BossDialogue
+  - BossShot
+  - BossColuna
+  - GameMessage
+  - NextLevel
+  - GasTank
+  - JuneColuna
+  - CabecaInimigo
+  - JuneLuz
+  - JuneMask
+  - EnemyShield
+  - KeyEnemy
+  - HelenaSpot
+  - InfoBoard
+  - Rain
+  - Barreira
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ground
+  - Player
+  - Enemy
+  - PlayerParticle
+  - Trigger
+  - Cenario
+  - Skill
+  - EnemySkill
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

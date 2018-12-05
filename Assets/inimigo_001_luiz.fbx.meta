@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: d49928c29c65d324bb91820f1c545383
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: blusa
+    100002: botas
+    100004: calca
+    100006: corpo
+    100008: //RootNode
+    100010: oculos
+    100012: pulseira_001
+    100014: pulseira_002
+    100016: pulseira_003
+    100018: roupaCanela
+    400000: blusa
+    400002: botas
+    400004: calca
+    400006: corpo
+    400008: //RootNode
+    400010: oculos
+    400012: pulseira_001
+    400014: pulseira_002
+    400016: pulseira_003
+    400018: roupaCanela
+    2100000: inimigo_001_baseMesh_aiStandardSurface6
+    2100002: inimigo_001_baseMesh_aiStandardSurface5
+    2100004: aiStandardSurface1
+    2100006: inimigo_001_baseMesh_aiStandardSurface1
+    2100008: lambert1
+    2300000: blusa
+    2300002: botas
+    2300004: calca
+    2300006: corpo
+    2300008: oculos
+    2300010: pulseira_001
+    2300012: pulseira_002
+    2300014: pulseira_003
+    2300016: roupaCanela
+    3300000: blusa
+    3300002: botas
+    3300004: calca
+    3300006: corpo
+    3300008: oculos
+    3300010: pulseira_001
+    3300012: pulseira_002
+    3300014: pulseira_003
+    3300016: roupaCanela
+    4300000: pulseira_003
+    4300002: oculos
+    4300004: pulseira_001
+    4300006: corpo
+    4300008: blusa
+    4300010: roupaCanela
+    4300012: botas
+    4300014: calca
+    4300016: pulseira_002
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: inimigo_001_luiz(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blusa
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: -0, y: 1.3088932, z: 0.06480432}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: botas
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: -0, y: 0.06850864, z: 0.14256252}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: calca
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corpo
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oculos
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: -0, y: 1.6350878, z: 0.16784658}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pulseira_001
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: -0.56614166, y: 1.4587129, z: 0.043127324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pulseira_002
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: -0.64703476, y: 1.4657713, z: 0.036813956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pulseira_003
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: 0.65132636, y: 1.4923877, z: 0.030556308}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: roupaCanela
+      parentName: inimigo_001_luiz(Clone)
+      position: {x: 0.10366713, y: 0.2330695, z: 0.052433994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

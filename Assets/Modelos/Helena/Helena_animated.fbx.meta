@@ -1,0 +1,1085 @@
+fileFormatVersion: 2
+guid: d5a58a408e47a9340aa062836191bf73
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cabeca_A
+    100002: Cabeca_B
+    100004: cabelo_geo
+    100006: Cintura
+    100008: Clavicula_Dir
+    100010: Clavicula_Esq
+    100012: Col_A
+    100014: Col_B
+    100016: Col_C
+    100018: corpo_geo
+    100020: Cotovelo_Dir
+    100022: Cotovelo_Dir_FK
+    100024: Cotovelo_Esq
+    100026: Cotovelo_Esq_FK
+    100028: Coxa_Dir
+    100030: Coxa_Dir_IK
+    100032: Coxa_Esq
+    100034: Coxa_Esq_IK
+    100036: Cv_Cintura
+    100038: Cv_Col_A
+    100040: Cv_Col_B
+    100042: Cv_Col_C
+    100044: Cv_Cotov_Dir
+    100046: Cv_Cotov_Esq
+    100048: Cv_Mandibula
+    100050: Cv_Ombro_Dir
+    100052: Cv_Ombro_Esq
+    100054: Cv_Pescoco_A
+    100056: Cv_Pescoco_B
+    100058: Cv_Pulso_Dir
+    100060: Cv_Pulso_Esq
+    100062: Cv_Root
+    100064: Dedao_A_Dir
+    100066: Dedao_A_Esq
+    100068: Dedao_B_Dir
+    100070: Dedao_B_Esq
+    100072: Dedao_C_Dir
+    100074: Dedao_C_Esq
+    100076: Dedos_A_Dir
+    100078: Dedos_A_Esq
+    100080: Dedos_B_Dir
+    100082: Dedos_B_Esq
+    100084: Dedos_C_Dir
+    100086: Dedos_C_Esq
+    100088: //RootNode
+    100090: helena_geo_grp
+    100092: Indicador_A_Dir
+    100094: Indicador_A_Esq
+    100096: Indicador_B_Dir
+    100098: Indicador_B_Esq
+    100100: Indicador_C_Dir
+    100102: Indicador_C_Esq
+    100104: Joelho_Dir
+    100106: Joelho_Dir_IK
+    100108: Joelho_Esq
+    100110: Joelho_Esq_IK
+    100112: June_Curvas_grp
+    100114: June_Joints_grp
+    100116: Mandibula_A
+    100118: Mandibula_B
+    100120: olhos_geo
+    100122: Ombro_Dir
+    100124: Ombro_Dir_FK
+    100126: Ombro_Esq
+    100128: Ombro_Esq_FK
+    100130: Ossinho_Dir
+    100132: Ossinho_Dir_IK
+    100134: Ossinho_Esq
+    100136: Ossinho_Esq_IK
+    100138: Palma_Dir
+    100140: Palma_Esq
+    100142: pedra_geo
+    100144: Peito_Pe_Dir
+    100146: Peito_Pe_Esq
+    100148: pernas_geo
+    100150: Pescoco_A
+    100152: Pescoco_B
+    100154: polySurface1
+    100156: polySurface2
+    100158: polySurface3
+    100160: Ponta_Pe_Dir
+    100162: Ponta_Pe_Esq
+    100164: Pulso_Dir
+    100166: Pulso_Dir_FK
+    100168: Pulso_Esq
+    100170: Pulso_Esq_FK
+    100172: "P\xE9lvis"
+    100174: Root
+    100176: roupa_geo
+    100178: transform1
+    400000: Cabeca_A
+    400002: Cabeca_B
+    400004: cabelo_geo
+    400006: Cintura
+    400008: Clavicula_Dir
+    400010: Clavicula_Esq
+    400012: Col_A
+    400014: Col_B
+    400016: Col_C
+    400018: corpo_geo
+    400020: Cotovelo_Dir
+    400022: Cotovelo_Dir_FK
+    400024: Cotovelo_Esq
+    400026: Cotovelo_Esq_FK
+    400028: Coxa_Dir
+    400030: Coxa_Dir_IK
+    400032: Coxa_Esq
+    400034: Coxa_Esq_IK
+    400036: Cv_Cintura
+    400038: Cv_Col_A
+    400040: Cv_Col_B
+    400042: Cv_Col_C
+    400044: Cv_Cotov_Dir
+    400046: Cv_Cotov_Esq
+    400048: Cv_Mandibula
+    400050: Cv_Ombro_Dir
+    400052: Cv_Ombro_Esq
+    400054: Cv_Pescoco_A
+    400056: Cv_Pescoco_B
+    400058: Cv_Pulso_Dir
+    400060: Cv_Pulso_Esq
+    400062: Cv_Root
+    400064: Dedao_A_Dir
+    400066: Dedao_A_Esq
+    400068: Dedao_B_Dir
+    400070: Dedao_B_Esq
+    400072: Dedao_C_Dir
+    400074: Dedao_C_Esq
+    400076: Dedos_A_Dir
+    400078: Dedos_A_Esq
+    400080: Dedos_B_Dir
+    400082: Dedos_B_Esq
+    400084: Dedos_C_Dir
+    400086: Dedos_C_Esq
+    400088: //RootNode
+    400090: helena_geo_grp
+    400092: Indicador_A_Dir
+    400094: Indicador_A_Esq
+    400096: Indicador_B_Dir
+    400098: Indicador_B_Esq
+    400100: Indicador_C_Dir
+    400102: Indicador_C_Esq
+    400104: Joelho_Dir
+    400106: Joelho_Dir_IK
+    400108: Joelho_Esq
+    400110: Joelho_Esq_IK
+    400112: June_Curvas_grp
+    400114: June_Joints_grp
+    400116: Mandibula_A
+    400118: Mandibula_B
+    400120: olhos_geo
+    400122: Ombro_Dir
+    400124: Ombro_Dir_FK
+    400126: Ombro_Esq
+    400128: Ombro_Esq_FK
+    400130: Ossinho_Dir
+    400132: Ossinho_Dir_IK
+    400134: Ossinho_Esq
+    400136: Ossinho_Esq_IK
+    400138: Palma_Dir
+    400140: Palma_Esq
+    400142: pedra_geo
+    400144: Peito_Pe_Dir
+    400146: Peito_Pe_Esq
+    400148: pernas_geo
+    400150: Pescoco_A
+    400152: Pescoco_B
+    400154: polySurface1
+    400156: polySurface2
+    400158: polySurface3
+    400160: Ponta_Pe_Dir
+    400162: Ponta_Pe_Esq
+    400164: Pulso_Dir
+    400166: Pulso_Dir_FK
+    400168: Pulso_Esq
+    400170: Pulso_Esq_FK
+    400172: "P\xE9lvis"
+    400174: Root
+    400176: roupa_geo
+    400178: transform1
+    2100000: lambert6
+    4300000: pedra_geo
+    4300002: cabelo_geo
+    4300004: olhos_geo
+    4300006: pernas_geo
+    4300008: polySurface1
+    4300010: polySurface2
+    4300012: polySurface3
+    4300014: roupa_geo
+    7400000: Walk
+    7400002: Idle
+    9500000: //RootNode
+    13700000: cabelo_geo
+    13700002: olhos_geo
+    13700004: pedra_geo
+    13700006: pernas_geo
+    13700008: polySurface1
+    13700010: polySurface2
+    13700012: polySurface3
+    13700014: roupa_geo
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Cintura' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'Coxa_Dir' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 356
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "P\xE9lvis"
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joelho_Dir
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ossinho_Dir
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Col_A
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Col_B
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pescoco_A
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pescoco_B
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicula_Esq
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicula_Dir
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ombro_Esq
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ombro_Dir
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cotovelo_Esq
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cotovelo_Dir
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pulso_Esq
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pulso_Dir
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Peito_Pe_Dir
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cabeca_A
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mandibula_A
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador_A_Esq
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador_B_Esq
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao_A_Esq
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao_B_Esq
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedos_A_Esq
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedos_B_Esq
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador_A_Dir
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Indicador_B_Dir
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao_A_Dir
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedao_B_Dir
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedos_A_Dir
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Dedos_B_Dir
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Col_C
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coxa_Esq
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Joelho_Esq
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ossinho_Esq
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Peito_Pe_Esq
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Helena_animated(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: helena_geo_grp
+      parentName: Helena_animated(Clone)
+      position: {x: -0, y: 0, z: 0.06640027}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cabelo_geo
+      parentName: helena_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: corpo_geo
+      parentName: helena_geo_grp
+      position: {x: -0, y: 1.5921963, z: 0.0019385099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: corpo_geo
+      position: {x: -0, y: -1.5921963, z: -0.0019385099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: corpo_geo
+      position: {x: -0, y: -1.5921963, z: -0.0019385099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: corpo_geo
+      position: {x: -0, y: -1.5921963, z: -0.0019385099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform1
+      parentName: corpo_geo
+      position: {x: -0, y: -1.5921963, z: -0.0019385099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: olhos_geo
+      parentName: helena_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pedra_geo
+      parentName: helena_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pernas_geo
+      parentName: helena_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: roupa_geo
+      parentName: helena_geo_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: June_Curvas_grp
+      parentName: Helena_animated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Root
+      parentName: June_Curvas_grp
+      position: {x: -0.00008956546, y: 0.9599942, z: 0.04}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Cintura
+      parentName: Cv_Root
+      position: {x: 0.00008956546, y: -0.092885666, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Col_A
+      parentName: Cv_Root
+      position: {x: 0.00008956546, y: 0.000005805992, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Col_B
+      parentName: Cv_Col_A
+      position: {x: -0, y: 0.11, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Col_C
+      parentName: Cv_Col_B
+      position: {x: -0, y: 0.22999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Ombro_Dir
+      parentName: Cv_Col_C
+      position: {x: 0.17, y: 0.16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Cotov_Dir
+      parentName: Cv_Ombro_Dir
+      position: {x: 0.26999998, y: -2.842171e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Pulso_Dir
+      parentName: Cv_Cotov_Dir
+      position: {x: 0.25, y: 0, z: -1.5987211e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Ombro_Esq
+      parentName: Cv_Col_C
+      position: {x: -0.17, y: 0.16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Cotov_Esq
+      parentName: Cv_Ombro_Esq
+      position: {x: -0.26999998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Pulso_Esq
+      parentName: Cv_Cotov_Esq
+      position: {x: -0.25, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Pescoco_A
+      parentName: Cv_Col_C
+      position: {x: -0, y: 0.24151938, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Pescoco_B
+      parentName: Cv_Pescoco_A
+      position: {x: -0, y: 0.048480622, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cv_Mandibula
+      parentName: Cv_Pescoco_B
+      position: {x: -6.3289925e-18, y: 0.04, z: 0.04}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: June_Joints_grp
+      parentName: Helena_animated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: June_Joints_grp
+      position: {x: -0.00008956546, y: 0.9599942, z: 0.04}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Col_A
+      parentName: Root
+      position: {x: 0.00008956546, y: 0.000005805992, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Col_B
+      parentName: Col_A
+      position: {x: -0.11, y: 2.4424906e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Col_C
+      parentName: Col_B
+      position: {x: -0.22999999, y: 5.1070257e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pescoco_A
+      parentName: Col_C
+      position: {x: -0.19999999, y: 4.4408918e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pescoco_B
+      parentName: Pescoco_A
+      position: {x: -0.089999996, y: 1.9984014e-17, z: 0}
+      rotation: {x: -0.7012622, y: 0.090726875, z: 0.090726875, w: 0.7012622}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cabeca_A
+      parentName: Pescoco_B
+      position: {x: -0.19646883, y: 7.105427e-17, z: 4.2188474e-17}
+      rotation: {x: 0, y: 0, z: 0.94040555, w: 0.34005505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cabeca_B
+      parentName: Cabeca_A
+      position: {x: -0.16552946, y: 2.842171e-16, z: -3.330669e-17}
+      rotation: {x: -0.37984028, y: -0.5964238, z: -0.37984028, w: 0.5964238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mandibula_A
+      parentName: Pescoco_B
+      position: {x: -0.048862714, y: -0.028503248, z: 8.881784e-18}
+      rotation: {x: -5.8799464e-18, y: 3.6843563e-18, z: 0.8473895, w: 0.5309717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mandibula_B
+      parentName: Mandibula_A
+      position: {x: -0.092195444, y: 2.842171e-16, z: -1.3322676e-17}
+      rotation: {x: 0, y: 0, z: -0.8473895, w: 0.5309717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavicula_Esq
+      parentName: Col_C
+      position: {x: -0.16, y: -0.089999996, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ombro_Esq_FK
+      parentName: Clavicula_Esq
+      position: {x: -0.08, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cotovelo_Esq_FK
+      parentName: Ombro_Esq_FK
+      position: {x: -0.26999998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pulso_Esq_FK
+      parentName: Cotovelo_Esq_FK
+      position: {x: -0.25, y: 0, z: 0}
+      rotation: {x: 0, y: -0.12218326, z: -0, w: 0.9925076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ombro_Esq
+      parentName: Clavicula_Esq
+      position: {x: -0.08, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cotovelo_Esq
+      parentName: Ombro_Esq
+      position: {x: -0.26999998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pulso_Esq
+      parentName: Cotovelo_Esq
+      position: {x: -0.25, y: 0, z: 0}
+      rotation: {x: -0.023316221, y: -0.119937904, z: -0.18940018, w: 0.97426844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Palma_Esq
+      parentName: Pulso_Esq
+      position: {x: -0.041231055, y: 0.021286376, z: 4.973799e-16}
+      rotation: {x: 0, y: -0, z: -0.07508436, w: 0.9971772}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedos_A_Esq
+      parentName: Palma_Esq
+      position: {x: -0.061747782, y: -0.0031073098, z: -0.003566215}
+      rotation: {x: -0.10976273, y: 0.24373645, z: 0.33682132, w: 0.9028268}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedos_B_Esq
+      parentName: Dedos_A_Esq
+      position: {x: -0.038335785, y: 5.684342e-16, z: 1.847411e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedos_C_Esq
+      parentName: Dedos_B_Esq
+      position: {x: -0.037351444, y: -4.263256e-15, z: -1.563194e-15}
+      rotation: {x: -0.16245987, y: 0.16245987, z: -0.688191, w: 0.688191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador_A_Esq
+      parentName: Palma_Esq
+      position: {x: -0.06048135, y: -0.02285798, z: 0.037136517}
+      rotation: {x: -0.027734641, y: 0.120740585, z: 0.26205286, w: 0.9570689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador_B_Esq
+      parentName: Indicador_A_Esq
+      position: {x: -0.034370117, y: -0.004339585, z: 0.009893664}
+      rotation: {x: -0.009174052, y: 0.12183836, z: 0.074521795, w: 0.9897059}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador_C_Esq
+      parentName: Indicador_B_Esq
+      position: {x: -0.03130342, y: -0.0000018339421, z: -0.000057919686}
+      rotation: {x: 0.009174053, y: -0.12183836, z: -0.074521795, w: 0.9897059}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao_A_Esq
+      parentName: Pulso_Esq
+      position: {x: -0.027940214, y: -0.019703725, z: 0.026445117}
+      rotation: {x: 0.08841353, y: 0.2927939, z: 0.27623525, w: 0.91112506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao_B_Esq
+      parentName: Dedao_A_Esq
+      position: {x: -0.03528318, y: 1.4210854e-15, z: -2.131628e-15}
+      rotation: {x: 0.000008843834, y: 0.04618356, z: -0.00018042875, w: 0.99893296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao_C_Esq
+      parentName: Dedao_B_Esq
+      position: {x: -0.03056011, y: -0.00016725223, z: -0.00029722202}
+      rotation: {x: 0, y: -0.34694627, z: -0, w: 0.93788505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavicula_Dir
+      parentName: Col_C
+      position: {x: -0.16, y: 0.089999996, z: 0}
+      rotation: {x: 0.7071068, y: 0.7071068, z: -4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ombro_Dir_FK
+      parentName: Clavicula_Dir
+      position: {x: 0.08, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cotovelo_Dir_FK
+      parentName: Ombro_Dir_FK
+      position: {x: 0.26999998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pulso_Dir_FK
+      parentName: Cotovelo_Dir_FK
+      position: {x: 0.25, y: 0, z: 0}
+      rotation: {x: 9.735825e-28, y: -0.12218326, z: 1.4963133e-17, w: 0.9925076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ombro_Dir
+      parentName: Clavicula_Dir
+      position: {x: 0.08, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cotovelo_Dir
+      parentName: Ombro_Dir
+      position: {x: 0.26999998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pulso_Dir
+      parentName: Cotovelo_Dir
+      position: {x: 0.25, y: 0, z: 0}
+      rotation: {x: -0.023310786, y: -0.119938955, z: -0.18935595, w: 0.9742769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Palma_Dir
+      parentName: Pulso_Dir
+      position: {x: 0.041231055, y: -0.021289999, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0.07508436, w: 0.9971772}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedos_A_Dir
+      parentName: Palma_Dir
+      position: {x: 0.061746992, y: 0.0031113743, z: 0.003566292}
+      rotation: {x: -0.10975947, y: 0.2437468, z: 0.33678687, w: 0.9028372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedos_B_Dir
+      parentName: Dedos_A_Dir
+      position: {x: 0.038336232, y: -0.000000014989206, z: -0.00000025023758}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedos_C_Dir
+      parentName: Dedos_B_Dir
+      position: {x: 0.03735206, y: 0.0000040258824, z: 0.00000033713192}
+      rotation: {x: -0.16245987, y: 0.16245985, z: -0.688191, w: 0.688191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador_A_Dir
+      parentName: Palma_Dir
+      position: {x: 0.060480807, y: 0.02286449, z: -0.037136666}
+      rotation: {x: -0.02772508, y: 0.120751925, z: 0.26205337, w: 0.9570676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador_B_Dir
+      parentName: Indicador_A_Dir
+      position: {x: 0.034368783, y: 0.0043360204, z: -0.009893573}
+      rotation: {x: -0.009174052, y: 0.12183836, z: 0.074521795, w: 0.9897059}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Indicador_C_Dir
+      parentName: Indicador_B_Dir
+      position: {x: 0.031304497, y: 0.0000053089266, z: 0.000058309924}
+      rotation: {x: 0.009174053, y: -0.12183836, z: -0.074521795, w: 0.9897059}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao_A_Dir
+      parentName: Pulso_Dir
+      position: {x: 0.027940346, y: 0.0197, z: -0.026445113}
+      rotation: {x: 0.08839704, y: 0.2928183, z: 0.27620718, w: 0.9111273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao_B_Dir
+      parentName: Dedao_A_Dir
+      position: {x: 0.03528389, y: 0.00000094192285, z: -0.000000012475766}
+      rotation: {x: 0.0000089481455, y: 0.046186645, z: -0.00018000971, w: 0.99893284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dedao_C_Dir
+      parentName: Dedao_B_Dir
+      position: {x: 0.030561004, y: 0.00016831837, z: 0.00029725712}
+      rotation: {x: 0, y: -0.34694627, z: -0, w: 0.93788505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cintura
+      parentName: Root
+      position: {x: 0.00008956546, y: 0.000005805992, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "P\xE9lvis"
+      parentName: Cintura
+      position: {x: -0.06, y: -1.3322676e-17, z: 0}
+      rotation: {x: 0.86187094, y: 0.50712776, z: 3.105262e-17, w: 5.2774375e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coxa_Dir_IK
+      parentName: "P\xE9lvis"
+      position: {x: -0.1029563, y: 4.2632563e-16, z: 0.024771217}
+      rotation: {x: 0.050566215, y: -0.085938014, z: 0.50460047, w: 0.8575758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joelho_Dir_IK
+      parentName: Coxa_Dir_IK
+      position: {x: -0.3865249, y: -5.8619773e-16, z: 7.105427e-17}
+      rotation: {x: -0.6985905, y: 0.109413505, z: 0.109413505, w: 0.6985905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ossinho_Dir_IK
+      parentName: Joelho_Dir_IK
+      position: {x: -0.39416948, y: 2.2204459e-17, z: 1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0.488285, w: 0.87268424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coxa_Esq_IK
+      parentName: "P\xE9lvis"
+      position: {x: 0.054392006, y: -0.087415725, z: 0.024771199}
+      rotation: {x: -0.50460047, y: 0.8575758, z: 0.050566196, w: 0.085937984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joelho_Esq_IK
+      parentName: Coxa_Esq_IK
+      position: {x: 0.3865249, y: 3.5527136e-17, z: -0.000000016898637}
+      rotation: {x: -0.6985905, y: 0.109413505, z: 0.109413505, w: 0.6985905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ossinho_Esq_IK
+      parentName: Joelho_Esq_IK
+      position: {x: 0.39416954, y: 0.000000019187508, z: 7.105427e-17}
+      rotation: {x: 0.0000000130040085, y: -0.0000000072760136, z: -0.488285, w: 0.87268424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coxa_Dir
+      parentName: "P\xE9lvis"
+      position: {x: -0.1029563, y: 4.2632563e-16, z: 0.024771217}
+      rotation: {x: 0.050566215, y: -0.085938014, z: 0.50460047, w: 0.8575758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joelho_Dir
+      parentName: Coxa_Dir
+      position: {x: -0.3865249, y: -5.8619773e-16, z: 7.105427e-17}
+      rotation: {x: -0.6985905, y: 0.109413505, z: 0.109413505, w: 0.6985905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ossinho_Dir
+      parentName: Joelho_Dir
+      position: {x: -0.39416948, y: 2.2204459e-17, z: 1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0.488285, w: 0.87268424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Peito_Pe_Dir
+      parentName: Ossinho_Dir
+      position: {x: -0.13, y: 0.02, z: -3.5527136e-17}
+      rotation: {x: 2.1494545e-16, y: -5.569796e-17, z: -0.2508413, w: 0.96802825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ponta_Pe_Dir
+      parentName: Peito_Pe_Dir
+      position: {x: -0.07, y: 8.881784e-18, z: 0}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Coxa_Esq
+      parentName: "P\xE9lvis"
+      position: {x: 0.054392006, y: -0.087415725, z: 0.024771199}
+      rotation: {x: -0.50460047, y: 0.8575758, z: 0.050566196, w: 0.085937984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joelho_Esq
+      parentName: Coxa_Esq
+      position: {x: 0.3865249, y: 3.5527136e-17, z: -0.000000016898637}
+      rotation: {x: -0.6985905, y: 0.109413505, z: 0.109413505, w: 0.6985905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ossinho_Esq
+      parentName: Joelho_Esq
+      position: {x: 0.39416954, y: 0.000000019187508, z: 7.105427e-17}
+      rotation: {x: 0.0000000130040085, y: -0.0000000072760136, z: -0.488285, w: 0.87268424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Peito_Pe_Esq
+      parentName: Ossinho_Esq
+      position: {x: 0.13, y: -0.02, z: 6.442992e-10}
+      rotation: {x: 0.000000020897392, y: -0.000000005415058, z: -0.2508413, w: 0.96802825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ponta_Pe_Esq
+      parentName: Peito_Pe_Esq
+      position: {x: 0.069999866, y: 0.000000047823463, z: 0.0000000010131249}
+      rotation: {x: 0.000000050285045, y: -0.7071067, z: 0.00000005028504, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

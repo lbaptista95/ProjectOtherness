@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 8b9515947447e9f48b45710510fa9589
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: casaVizinho_0:casaVizinho_0
+    100004: casaVizinho_1:casaVizinho_1
+    100006: casaVizinho_2:casaVizinho_2
+    100008: casaVizinho_3:casaVizinho_3
+    100010: casaVizinho_4:casaVizinho_4
+    100012: casaVizinho_5:casaVizinho_5
+    100014: casaVizinho_6:casaVizinho_6
+    100016: casaVizinho_7:casaVizinho_7
+    400000: //RootNode
+    400002: casaVizinho_0:casaVizinho_0
+    400004: casaVizinho_1:casaVizinho_1
+    400006: casaVizinho_2:casaVizinho_2
+    400008: casaVizinho_3:casaVizinho_3
+    400010: casaVizinho_4:casaVizinho_4
+    400012: casaVizinho_5:casaVizinho_5
+    400014: casaVizinho_6:casaVizinho_6
+    400016: casaVizinho_7:casaVizinho_7
+    2100000: casaVizinho_6_palette1
+    2100002: casaVizinho_7_palette1
+    2100004: casaVizinho_0_palette1
+    2100006: casaVizinho_1_palette1
+    2100008: casaVizinho_2_palette1
+    2100010: casaVizinho_3_palette1
+    2100012: casaVizinho_4_palette1
+    2100014: casaVizinho_5_palette1
+    2300000: casaVizinho_0:casaVizinho_0
+    2300002: casaVizinho_1:casaVizinho_1
+    2300004: casaVizinho_2:casaVizinho_2
+    2300006: casaVizinho_3:casaVizinho_3
+    2300008: casaVizinho_4:casaVizinho_4
+    2300010: casaVizinho_5:casaVizinho_5
+    2300012: casaVizinho_6:casaVizinho_6
+    2300014: casaVizinho_7:casaVizinho_7
+    3300000: casaVizinho_0:casaVizinho_0
+    3300002: casaVizinho_1:casaVizinho_1
+    3300004: casaVizinho_2:casaVizinho_2
+    3300006: casaVizinho_3:casaVizinho_3
+    3300008: casaVizinho_4:casaVizinho_4
+    3300010: casaVizinho_5:casaVizinho_5
+    3300012: casaVizinho_6:casaVizinho_6
+    3300014: casaVizinho_7:casaVizinho_7
+    4300000: casaVizinho_6:casaVizinho_6
+    4300002: casaVizinho_7:casaVizinho_7
+    4300004: casaVizinho_0:casaVizinho_0
+    4300006: casaVizinho_1:casaVizinho_1
+    4300008: casaVizinho_2:casaVizinho_2
+    4300010: casaVizinho_3:casaVizinho_3
+    4300012: casaVizinho_4:casaVizinho_4
+    4300014: casaVizinho_5:casaVizinho_5
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 40
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

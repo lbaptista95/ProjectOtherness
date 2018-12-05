@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 490fec53b9f726f4c9ff6051bc2ca109
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: casaJuneINT_sep_001_18:casaJuneINT_sep_001_0
+    100004: casaJuneINT_sep_001_19:casaJuneINT_sep_001_1
+    100006: casaJuneINT_sep_001_20:casaJuneINT_sep_001_2
+    100008: casaJuneINT_sep_001_21:casaJuneINT_sep_001_3
+    100010: casaJuneINT_sep_001_22:casaJuneINT_sep_001_4
+    100012: casaJuneINT_sep_001_23:casaJuneINT_sep_001_5
+    100014: casaJuneINT_sep_001_24:casaJuneINT_sep_001_6
+    100016: casaJuneINT_sep_001_25:casaJuneINT_sep_001_7
+    100018: casaJuneINT_sep_001_26:casaJuneINT_sep_001_8
+    400000: //RootNode
+    400002: casaJuneINT_sep_001_18:casaJuneINT_sep_001_0
+    400004: casaJuneINT_sep_001_19:casaJuneINT_sep_001_1
+    400006: casaJuneINT_sep_001_20:casaJuneINT_sep_001_2
+    400008: casaJuneINT_sep_001_21:casaJuneINT_sep_001_3
+    400010: casaJuneINT_sep_001_22:casaJuneINT_sep_001_4
+    400012: casaJuneINT_sep_001_23:casaJuneINT_sep_001_5
+    400014: casaJuneINT_sep_001_24:casaJuneINT_sep_001_6
+    400016: casaJuneINT_sep_001_25:casaJuneINT_sep_001_7
+    400018: casaJuneINT_sep_001_26:casaJuneINT_sep_001_8
+    2100000: casaJuneINT_sep_001_18_palette1
+    2100002: casaJuneINT_sep_001_19_palette1
+    2100004: casaJuneINT_sep_001_20_palette1
+    2100006: casaJuneINT_sep_001_21_palette1
+    2100008: casaJuneINT_sep_001_22_palette1
+    2100010: casaJuneINT_sep_001_23_palette1
+    2100012: casaJuneINT_sep_001_24_palette1
+    2100014: casaJuneINT_sep_001_25_palette1
+    2100016: casaJuneINT_sep_001_26_palette1
+    2300000: casaJuneINT_sep_001_18:casaJuneINT_sep_001_0
+    2300002: casaJuneINT_sep_001_19:casaJuneINT_sep_001_1
+    2300004: casaJuneINT_sep_001_20:casaJuneINT_sep_001_2
+    2300006: casaJuneINT_sep_001_21:casaJuneINT_sep_001_3
+    2300008: casaJuneINT_sep_001_22:casaJuneINT_sep_001_4
+    2300010: casaJuneINT_sep_001_23:casaJuneINT_sep_001_5
+    2300012: casaJuneINT_sep_001_24:casaJuneINT_sep_001_6
+    2300014: casaJuneINT_sep_001_25:casaJuneINT_sep_001_7
+    2300016: casaJuneINT_sep_001_26:casaJuneINT_sep_001_8
+    3300000: casaJuneINT_sep_001_18:casaJuneINT_sep_001_0
+    3300002: casaJuneINT_sep_001_19:casaJuneINT_sep_001_1
+    3300004: casaJuneINT_sep_001_20:casaJuneINT_sep_001_2
+    3300006: casaJuneINT_sep_001_21:casaJuneINT_sep_001_3
+    3300008: casaJuneINT_sep_001_22:casaJuneINT_sep_001_4
+    3300010: casaJuneINT_sep_001_23:casaJuneINT_sep_001_5
+    3300012: casaJuneINT_sep_001_24:casaJuneINT_sep_001_6
+    3300014: casaJuneINT_sep_001_25:casaJuneINT_sep_001_7
+    3300016: casaJuneINT_sep_001_26:casaJuneINT_sep_001_8
+    4300000: casaJuneINT_sep_001_18:casaJuneINT_sep_001_0
+    4300002: casaJuneINT_sep_001_19:casaJuneINT_sep_001_1
+    4300004: casaJuneINT_sep_001_20:casaJuneINT_sep_001_2
+    4300006: casaJuneINT_sep_001_21:casaJuneINT_sep_001_3
+    4300008: casaJuneINT_sep_001_22:casaJuneINT_sep_001_4
+    4300010: casaJuneINT_sep_001_23:casaJuneINT_sep_001_5
+    4300012: casaJuneINT_sep_001_24:casaJuneINT_sep_001_6
+    4300014: casaJuneINT_sep_001_25:casaJuneINT_sep_001_7
+    4300016: casaJuneINT_sep_001_26:casaJuneINT_sep_001_8
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 40
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

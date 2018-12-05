@@ -1,0 +1,72 @@
+{
+    "console": [],
+    "result": {
+        "passages": [
+            {
+                "Name": "Passagem Sem Nome",
+                "Pid": "1",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": " \"A place to remember those who are gone...\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"<Exit>\",\"<Exit>\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"<Exit>\",\"<Exit>\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "<Exit>",
+                                "text": "\"<Exit>\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "<Exit>",
+                                "text": "\"<Exit>\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "<Exit>",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Clique duas vezes nessa passagem para editá-la.",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}

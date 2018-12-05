@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: dabdd719171707f49bd231125a4ffd1f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cidade__0:cidade__0
+    100002: cidade__10:cidade__10
+    100004: cidade__11:cidade__11
+    100006: cidade__12:cidade__12
+    100008: cidade__13:cidade__13
+    100010: cidade__14:cidade__14
+    100012: cidade__15:cidade__15
+    100014: cidade__16:cidade__16
+    100016: cidade__17:cidade__17
+    100018: cidade__1:cidade__1
+    100020: cidade__2:cidade__2
+    100022: cidade__3:cidade__3
+    100024: cidade__4:cidade__4
+    100026: cidade__5:cidade__5
+    100028: cidade__6:cidade__6
+    100030: cidade__7:cidade__7
+    100032: cidade__8:cidade__8
+    100034: cidade__9:cidade__9
+    100036: //RootNode
+    400000: cidade__0:cidade__0
+    400002: cidade__10:cidade__10
+    400004: cidade__11:cidade__11
+    400006: cidade__12:cidade__12
+    400008: cidade__13:cidade__13
+    400010: cidade__14:cidade__14
+    400012: cidade__15:cidade__15
+    400014: cidade__16:cidade__16
+    400016: cidade__17:cidade__17
+    400018: cidade__1:cidade__1
+    400020: cidade__2:cidade__2
+    400022: cidade__3:cidade__3
+    400024: cidade__4:cidade__4
+    400026: cidade__5:cidade__5
+    400028: cidade__6:cidade__6
+    400030: cidade__7:cidade__7
+    400032: cidade__8:cidade__8
+    400034: cidade__9:cidade__9
+    400036: //RootNode
+    2100000: cidade__17_palette1
+    2100002: cidade__0_palette1
+    2100004: cidade__1_palette1
+    2100006: cidade__2_palette1
+    2100008: cidade__3_palette1
+    2100010: cidade__4_palette1
+    2100012: cidade__5_palette1
+    2100014: cidade__6_palette1
+    2100016: cidade__7_palette1
+    2100018: cidade__8_palette1
+    2100020: cidade__9_palette1
+    2100022: cidade__10_palette1
+    2100024: cidade__11_palette1
+    2100026: cidade__12_palette1
+    2100028: cidade__13_palette1
+    2100030: cidade__14_palette1
+    2100032: cidade__15_palette1
+    2100034: cidade__16_palette1
+    2300000: cidade__0:cidade__0
+    2300002: cidade__10:cidade__10
+    2300004: cidade__11:cidade__11
+    2300006: cidade__12:cidade__12
+    2300008: cidade__13:cidade__13
+    2300010: cidade__14:cidade__14
+    2300012: cidade__15:cidade__15
+    2300014: cidade__16:cidade__16
+    2300016: cidade__17:cidade__17
+    2300018: cidade__1:cidade__1
+    2300020: cidade__2:cidade__2
+    2300022: cidade__3:cidade__3
+    2300024: cidade__4:cidade__4
+    2300026: cidade__5:cidade__5
+    2300028: cidade__6:cidade__6
+    2300030: cidade__7:cidade__7
+    2300032: cidade__8:cidade__8
+    2300034: cidade__9:cidade__9
+    3300000: cidade__0:cidade__0
+    3300002: cidade__10:cidade__10
+    3300004: cidade__11:cidade__11
+    3300006: cidade__12:cidade__12
+    3300008: cidade__13:cidade__13
+    3300010: cidade__14:cidade__14
+    3300012: cidade__15:cidade__15
+    3300014: cidade__16:cidade__16
+    3300016: cidade__17:cidade__17
+    3300018: cidade__1:cidade__1
+    3300020: cidade__2:cidade__2
+    3300022: cidade__3:cidade__3
+    3300024: cidade__4:cidade__4
+    3300026: cidade__5:cidade__5
+    3300028: cidade__6:cidade__6
+    3300030: cidade__7:cidade__7
+    3300032: cidade__8:cidade__8
+    3300034: cidade__9:cidade__9
+    4300000: cidade__17:cidade__17
+    4300002: cidade__0:cidade__0
+    4300004: cidade__1:cidade__1
+    4300006: cidade__2:cidade__2
+    4300008: cidade__3:cidade__3
+    4300010: cidade__4:cidade__4
+    4300012: cidade__5:cidade__5
+    4300014: cidade__6:cidade__6
+    4300016: cidade__7:cidade__7
+    4300018: cidade__8:cidade__8
+    4300020: cidade__9:cidade__9
+    4300022: cidade__10:cidade__10
+    4300024: cidade__11:cidade__11
+    4300026: cidade__12:cidade__12
+    4300028: cidade__13:cidade__13
+    4300030: cidade__14:cidade__14
+    4300032: cidade__15:cidade__15
+    4300034: cidade__16:cidade__16
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 150
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
